@@ -1,0 +1,17 @@
+<div class="flex align-items-center gap-2">
+  <span class="p-input-icon-left w-full">
+    <i class="pi pi-search"></i>
+    <input
+      pInputText
+      type="text"
+      placeholder="Поиск"
+      [(ngModel)]="searchQuery"
+      class="w-full"
+    />
+  </span>
+  <p-button
+    label="Поиск"
+    (click)="onSearch()"
+    styleClass="p-button-help"
+  ></p-button>
+</div>
