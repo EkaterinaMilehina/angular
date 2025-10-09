@@ -1,12 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-
+.bg-ground {
+  background-color: var(--surface-ground) !important;
+}
+.surface-800 {
+  background-color: var(--surface-800) !important;
+}
 * {
   margin: 0;
   padding: 0;
 }
 
-html {
+body {
   font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }

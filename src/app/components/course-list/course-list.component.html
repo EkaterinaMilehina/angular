@@ -1,1 +1,8 @@
-<p>course-list works!</p>
+<div class="flex flex-column gap-3 py-3">
+  <app-course-item
+    *ngFor="let i of courses"
+    [course]="i"
+    (editCourse)="onEdit($event)"
+    (deleteCourse)="onDelete($event)"
+  ></app-course-item>
+</div>
